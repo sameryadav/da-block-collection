@@ -237,6 +237,24 @@
     ]
   },
   {
+    "id": "samar",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "div:nth-child(1)>div:nth-child(1)",
+        "label": "Samar",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "div:nth-child(2)>div:nth-child(1)>p:nth-child(1)",
+        "label": "Author",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "search",
     "fields": [
       {

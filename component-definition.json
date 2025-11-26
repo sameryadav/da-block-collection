@@ -179,6 +179,17 @@
           }
         },
         {
+          "title": "Samar",
+          "id": "samar",
+          "plugins": {
+            "da": {
+              "name": "samar",
+              "rows": 1,
+              "columns": 1
+            }
+          }
+        },
+        {
           "title": "Search",
           "id": "search",
           "plugins": {

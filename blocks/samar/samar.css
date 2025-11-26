@@ -1,0 +1,42 @@
+.samar blocksamar {
+    margin: 0 auto;
+    padding: 0 24px;
+    max-width: 900px;
+  }
+  
+  @media (width >= 900px) {
+    .samar blocksamar {
+      padding: 0 32px;
+    }
+  }
+  
+  .samar blocksamar .samar-quotation {
+    font-size: 120%;
+  }
+  
+  .samar blocksamar .samar-quotation > :first-child {
+    text-indent: -0.5ch;
+  }
+  
+  .samar blocksamar .samar-quotation > :first-child::before,
+  .samar blocksamar .samar-quotation > :last-child::after {
+    line-height: 0;
+  }
+  
+  .samar blocksamar .samar-quotation > :first-child::before {
+    content: "“";
+  }
+  
+  .samar blocksamar .samar-quotation > :last-child::after {
+    content: "”";
+  }
+  
+  .samar blocksamar .samar-attribution {
+    text-align: right;
+  }
+  
+  .samar blocksamar .samar-attribution > :first-child::before {
+    content: "—";
+    padding-right: 0.5ch;
+  }
+  
