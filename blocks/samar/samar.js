@@ -18,4 +18,3 @@ export default async function decorate(block) {
   block.innerHTML = '';
   block.append(blocksamar);
 }
-  
